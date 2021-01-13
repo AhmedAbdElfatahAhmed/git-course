@@ -2,6 +2,11 @@
 let hourHand = document.querySelector('.hour'); 
 let minuteHand = document.querySelector('.minute');
 let secondHand = document.querySelector('.second');
+let myTime=document.getElementById("mytime");
+myTime.onclick=function(e)
+{
+  myTime.textContent="the time is "
+}
 
 function rotate() {
   const currentDate = new Date();

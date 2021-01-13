@@ -1,4 +1,6 @@
 
+let changeinjsfile;
+
 let hourHand = document.querySelector('.hour'); 
 let minuteHand = document.querySelector('.minute');
 let secondHand = document.querySelector('.second');
